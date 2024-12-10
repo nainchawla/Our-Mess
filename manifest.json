@@ -1,0 +1,20 @@
+{
+    "name": "OurMess",
+    "short_name": "OurMess",
+    "start_url": "/OurMess/",
+    "display": "standalone",
+    "background_color": "#2d0a24",
+    "theme_color": "#2d0a24",
+    "icons": [
+        {
+            "src": "icon_192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon_512.jpg",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
