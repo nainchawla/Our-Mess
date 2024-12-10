@@ -1,6 +1,6 @@
 {
-    "name": "OurMess",
-    "short_name": "OurMess",
+    "name": "Our-Mess",
+    "short_name": "Our-Mess",
     "start_url": "/Our-Mess/",
     "display": "standalone",
     "background_color": "#2d0a24",
