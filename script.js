@@ -114,3 +114,21 @@ window.onload = () => {
     currentDate = new Date().toLocaleDateString('en-CA'); // Reset to today's date
     fetchMenu();
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('menu.json?v=1.0')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Fetched Data:', data);
+            // Use the data to update your webpage
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+});
+
